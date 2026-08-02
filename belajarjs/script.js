@@ -12,6 +12,8 @@ console.log(cekGanjilGenap(7));*/
 let ganti = document.getElementById("manipulasi");
 ganti.textContent = "WORLD HELLO";
 
+//bealajar js with kelas terbuka
+
 let kebo = "kebokem";
 console.log(kebo);
 kebo = "bokem";
@@ -66,3 +68,46 @@ let umur = 15;
 
 let biokebo = `${namaDepan} ${namaBelakang} di umur ${umur}`;
 console.log(biokebo);
+
+// operasi string
+//char at
+let dataString = "abcdef";
+let dataChar = dataString.charAt(3);
+console.log(`character pada index 3 = ${dataChar}`);
+dataChar = dataString.charAt(2);
+console.log(`character pada index 2 = ${dataChar}`);
+dataChar = dataString.charAt(6);
+console.log(`character pada index 6 = ${dataChar}`);
+
+//menyambung str
+let namaPayun = "rb";
+let namaPengker = "rolbek";
+let namaLengkap = namaPayun.concat(' ',namaPengker);
+console.log(namaLengkap);
+
+//mengambil inddek 
+console.log(namaLengkap.indexOf('k'));
+console.log(namaLengkap.indexOf('r'));
+
+//substring
+console.log(namaLengkap.substring(3,9));
+console.log(namaLengkap.substring(9,3));
+
+//slice
+console.log(namaLengkap.slice(9,3));
+console.log(namaLengkap.substring(3,9));
+
+//replace
+namaLengkap = namaLengkap.replace('rb rolbek', 'rolberk rb');
+console.log(namaLengkap);
+
+//tolower
+console.log(namaLengkap.toLocaleLowerCase());
+//toupper
+console.log(namaLengkap.toUpperCase());
+
+let ubah = '10';
+console.log(typeof ubah);
+let rubah = parseInt(ubah);
+console.log(rubah);
+console.log(typeof rubah)
