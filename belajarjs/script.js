@@ -11,3 +11,8 @@ console.log(cekGanjilGenap(7));*/
 
 let ganti = document.getElementById("manipulasi");
 ganti.textContent = "WORLD HELLO";
+
+let kebo = "kebokem";
+console.log(kebo);
+kebo = "bokem";
+console.log(kebo);
