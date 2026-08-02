@@ -50,3 +50,19 @@ console.log(typeof kosong); //undefined dan bisa diisi nanti
 kosong = "Kebo";
 console.log(kosong);
 console.log(typeof kosong);
+
+// escaping string 
+let data4 = 'Kebo berkata "halo dunia"';
+console.log(data4)
+let data5= "kebo berkata \"aduh le\"";
+console.log(data5)
+let data6 = "kebo sedang sibuk bermain bola, \ndi bulan";
+console.log(data6);
+
+// literal string
+let namaDepan = "kebo";
+let namaBelakang = "bobo";
+let umur = 15;
+
+let biokebo = `${namaDepan} ${namaBelakang} di umur ${umur}`;
+console.log(biokebo);
