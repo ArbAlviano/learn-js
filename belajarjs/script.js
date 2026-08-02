@@ -27,3 +27,26 @@ console.log(keboBelakang); // yang diluar tetap mengikuti yang atas
 const NIK = "1234";
 console.log(NIK);
 //NIK = "12345"; tidak bisa mengubah karna const
+
+let data1 = "kebo";
+console.log(data1);
+console.log(typeof data1); //string
+
+let data2 = 10;
+console.log(data2);
+console.log(typeof data2); //number
+
+let data3 = true;
+console.log(data3);
+console.log(typeof data3); //boolean
+
+data1 = 5;
+console.log(data1)
+console.log(typeof data1) //dapat mengubah data dari string ke int
+
+let kosong;
+console.log(kosong);
+console.log(typeof kosong); //undefined dan bisa diisi nanti
+kosong = "Kebo";
+console.log(kosong);
+console.log(typeof kosong);
