@@ -19,7 +19,11 @@ console.log(kebo);
 
 let keboBelakang = "tidur";
 {
-    let keboBelakang = "zzz";
+    let keboBelakang = "zzz"; // hanya mengubah yang didalam
     console.log(keboBelakang)
 }
-console.log(keboBelakang);
+console.log(keboBelakang); // yang diluar tetap mengikuti yang atas
+
+const NIK = "1234";
+console.log(NIK);
+//NIK = "12345"; tidak bisa mengubah karna const
