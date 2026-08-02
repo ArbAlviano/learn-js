@@ -16,3 +16,10 @@ let kebo = "kebokem";
 console.log(kebo);
 kebo = "bokem";
 console.log(kebo);
+
+let keboBelakang = "tidur";
+{
+    let keboBelakang = "zzz";
+    console.log(keboBelakang)
+}
+console.log(keboBelakang);
